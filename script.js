@@ -1,11 +1,14 @@
 function convertScoreACT() {
     const actScore = parseFloat(document.getElementById('actScore').value);
     const multiplier = 44;
+    const multiplier2 = 44.4444444;
 
     if (!isNaN(actScore)) {
         const satScore = multiplier * actScore;
+      const satScore2 = multiplier2 * actScore;
        const roundedACTScore = Math.ceil(satScore / 10) * 10;
-        document.getElementById('resultact').textContent = `SAT Score Equivalent: ${roundedACTScore}`;
+      const roundedACTScore2 = Math.ceil(satScore2 / 10) * 10;
+        document.getElementById('resultact').textContent = `SAT Score Equivalent: ${roundedACTScore}-${roundedACTScore2}`;
     } else {
         document.getElementById('resultact').textContent = 'Please enter a valid ACT score.';
     }

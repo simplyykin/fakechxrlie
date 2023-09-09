@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'recepfont'; 
+    src: url('penis.ttf');
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(https://usagif.com/wp-content/uploads/gif/outerspace-6.gif); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #72a1ce;
+}
+
+h1 {
+    color: #fff;
+    font-family: 'recepfont';
+}
+
+.converter {
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+    color:#fff;
+    font-family: 'recepfont';
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+button {
+    font-family: 'recepfont';
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 10%;
+} 
+
+.result {
+    margin-top: 20px;
+    font-weight: bold;
+}

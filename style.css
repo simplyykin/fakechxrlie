@@ -57,3 +57,35 @@ button {
     margin-top: 20px;
     font-weight: bold;
 }
+
+#navigator-bar{
+   padding: 30px;
+   padding-left: 130px;
+   padding-right: 70px;
+   height: 70px;
+   background-color: white;
+}
+
+#navigator{
+    display: inline;
+}
+
+.logo{
+    float: left;
+    padding-left: 30px;
+    max-width: 200px;
+  
+}
+
+ul{
+    list-style: none;
+    float: right;
+    padding-right: 0px;
+    
+}
+ul li{
+    display: inline;
+    padding: 30px;
+    font-size: 25px;
+    font-family: 'recepfont';
+}
